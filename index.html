@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Curriculum Vitae</title>
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Inicia header -->
+  <header class="section" id="header">
+    <img alt="" class="img-circle" src="img/foto-perfil.jpg">
+    <p>Mi nombre completo</p>
+  </header>
+  <!-- Termina header -->
+  <!-- Inicio del contenido Principal -->
+  <main>
+    <!-- Inicio de la Sección Acerca de Mí -->
+    <section class="section">
+      <h1><span>Acerca de Mí</span></h1>
+      <p>
+        Hola! Yo soy <b>Mi nombre</b>. Codear ha cambiado mi mundo.
+        No se trata solo de aplicaciones. Aprender a codificar me dio <i>habilidades para resolver problemas </i> y una
+        forma de comunicarme con otros a nivel técnico. También puedo desarrollar sitios web y usar mis habilidades de
+        codificación para conseguir un mejor trabajo. Y lo aprendí todo en la <strong> Comunidad Front End Doers
+        </strong>
+        donde te desarrollas profesionalmente y te mantienes motivado. Únete a la comunidad Front End Doers y comparte
+        conmigo este camino hacia un desarrollador Front End Master. ¡Te divertirás, recibirás ayuda y aprenderás en el
+        camino!
+      </p>
+      <p class="quote"><q>Hazlo o no lo hagas, pero no lo intentes.</q><cite> Yoda - Star Wars</cite></p>
+    </section>
+    <!-- Fin de la Sección Acerca de Mí -->
+    <!-- Inicio de la Sección Mi horario -->
+    <section class="section">
+      <h1><span>Mi horario para codificar</span></h1>
+      <table>
+        <tr>
+          <th>Día</th>
+          <th>Lun</th>
+          <th>Mar</th>
+          <th>Mier</th>
+          <th>Jue</th>
+          <th>Vie</th>
+        </tr>
+        <tr>
+          <td>8-8:30</td>
+          <td class="selected">Aprender</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9-10</td>
+          <td></td>
+          <td class="selected">Practicar</td>
+          <!--Agrega el atributo colspan="2" 
+          para definir el número de columnas que debe abarcar una celda.
+          <td colspan="2" class="selected">Practicar</td>-->
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1-1:30</td>
+          <td></td>
+          <td></td>
+          <td class="selected">Jugar</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3:45-5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="selected">Codificar</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6-6:15</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="selected">Debate</td>
+        </tr>
+      </table>
+    </section>
+    <!-- Fin de la Sección Mi horario -->
+    <!-- Inicio de la Seccion Mis Habilidades -->
+    <section class="section">
+      <h1><span>Mis Habilidades</span></h1>
+      <ul>
+        <li>HTML <br />
+          <progress max="100" value="80"></progress>
+        </li>
+        <li>CSS <br />
+          <progress max="100" value="50"></progress>
+        </li>
+        <li>JavaScript<br />
+          <progress max="100" value="30"></progress>
+        </li>
+      </ul>
+    </section>
+    <!-- Fin de la sección Mis Habilidades -->
+    <!-- Inicio de la sección de Videos o Iframes-->
+    <section class="section">
+      <h1><span>Mis proyectos realizados</span></h1>
+      <!--El iframe se utiliza para insertar una página web externa a nuestra página web actual
+    por ejemplo mapas, videos de youtube-->
+      <!--Ejemplo 1: En este ejemplo se está insertando un mapa de GoogleMaps
+    <iframe title="Mapa de la Plaza Altabrisa Tabasco" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15181.1229566232!2d-92.94866023022462!3d17.96567110000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85edd7632d8386d1%3A0x7e63b1208ca6989e!2sPlaza%20Altabrisa%20Tabasco!5e0!3m2!1ses-419!2smx!4v1602137832160!5m2!1ses-419!2smx" 
+    width="300" height="150" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>-->
+      <!--Ejemplo 2:En este ejemplo se está insertando un video de YouTube
+    <iframe width="300" height="150" src="https://www.youtube.com/embed/uXggGaruJto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+      <!--Ejemplo 3: En este ejemplo se está insertando un video que fue publicado en Facebook-->
+      <iframe
+        src="https://www.facebook.com/plugins/video.php?height=337&href=https%3A%2F%2Fwww.facebook.com%2FFrontEndDoer%2Fvideos%2F730060037838688%2F&show_text=false&width=560"
+        width="300" height="150" scrolling="no" allowTransparency="true" allow="encrypted-media"
+        allowFullScreen="true"></iframe>
+      <!--Insertando Video: En este ejemplo se está insertando un video que se encuentra dentro de la carpeta de nuestro proyecto
+    <video width="300" height="150" controls autoplay poster="img/logo-fe.png">
+      <source src="videos/mis-proyectos.mp4" type="video/mp4">
+      Tu navegador no admite el elemento <code>video</code>.
+    </video>-->
+    </section>
+    <!-- Fin de la sección de Videos o Iframes-->
+    <!-- Inicio de la sección de Contacto -->
+    <section class="section">
+      <h1><span>Contáctame</span></h1>
+      <!--Gráfico vectorial-->
+      <svg class="face" height="100" width="100">
+        <circle cx="50" cy="50" r="50" fill="#FDD835" />
+        <circle cx="30" cy="30" r="10" fill="#FFFFFF" />
+        <circle cx="70" cy="30" r="10" fill="#FFFFFF" />
+        <circle cx="30" cy="30" r="5" fill="#000000" />
+        <circle cx="70" cy="30" r="5" fill="#000000" />
+        <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+      </svg>
+      <!--Inicio del Formulario de Contacto-->
+      <form action="ejemplo.js" method="get">
+        <input name="name" placeholder="Nombre" type="text" required /><br />
+        <input name="email" placeholder="Correo Electrónico" type="email" required /><br />
+        <textarea name="message" placeholder="Mensaje" required></textarea>
+        <input type="submit" value="ENVIAR" class="submit" />
+      </form>
+    </section>
+    <!-- Fin de la Sección de Contacto -->
+    <!-- Inicio de la Sección Redes Sociales -->
+    <section class="section" id="contacts">
+      <h1><span>Sígueme</span></h1>
+      <div>
+        <a href="https://www.facebook.com/FrontEndDoer" target="_blank">
+          <img alt="FrontEndDoers" src="img/logo-fe.png" />
+        </a>
+        <a href="https://www.facebook.com/groups/3236417726583863">
+          <img alt="Facebook" src="img/logo-fb.png" />
+        </a>
+        <a href="https://github.com/FrontEndDoers">
+          <img alt="GitHub" src="img/logo-gh.png">
+        </a>
+      </div>
+    </section>
+    <!-- Fin de la Sección Redes Sociales-->
+  </main>
+  <!--Fin del contenido Principal-->
+  <!--Inicio del Pie de Página-->
+  <footer class="copyright">
+    <small>&copy; 2020 Mi CV. Todos los derechos reservados.</small>
+  </footer>
+  <!--Fin del Pie de Página-->
+</body>
+
+</html>
